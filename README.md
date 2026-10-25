@@ -57,7 +57,8 @@ Installation & Run
     Clone the repository:
     Bash
 
-    git clone 
+    git clone https://github.com/jerydgreen-maker/PCB_Image_Comparator.git
+    cd PCB_Image_Comparator
     
 
     Install dependencies:
