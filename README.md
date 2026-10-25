@@ -1,105 +1,107 @@
-🐉 Azure Dragon Tech — PCB Geometry Comparator
-
-[![Buy Me a Tea](https://img.shields.io/badge/☕-Support%20Development-FF5E5B?style=for-the-badge)](https://ko-fi.com/jerydgreen)
-
-Support the development of RetroShell by Azure Dragon Tech.
-
-
-📌 About the Project
-
-During the development of a replacement phone board, I faced the need to accurately transfer geometry from original boards. To solve this task, I developed this program for copying the geometry of the original board.
-
-It helps me and other engineers to:
-
-    Accurately position pads and electronic components.
-
-    Perfectly repeat the contours of the original board.
-
-    Compare board images, overlay them on each other, and perform calibration with high precision.
-
-    ## 📸 Screenshots
-
 <p align="center">
-  <img src="pic/PCBC1.jpg" width="45%" alt="Screenshot 1">
+  <img src="logo.jpg" alt="Azure Dragon Tech logo" width="220">
 </p>
 
-<p align="center">
-  <img src="pic/PCBC2.jpg" width="45%" alt="Screenshot 2">
-</p>
+<h1 align="center">PCB Image Comparator</h1>
 
-This project is open source. I will be glad if you take this project as a basis, introduce useful functions for yourself, and share them with other users!
-✨ Key Features
+<p align="center">A desktop tool for comparing PCB images and helping reproduce original board geometry.</p>
 
-Based on the project architecture, the program includes the following capabilities:
+<p align="center"><a href="https://ko-fi.com/jerydgreen"><img src="https://img.shields.io/badge/Support%20development-Ko--fi-FF5E5B?style=for-the-badge" alt="Support development on Ko-fi"></a></p>
 
-    Dual Model View & Alignment (Model A / Model B):
+**Developed by Azure Dragon Tech**
 
-        Loading original board photos (normal and mirrored)[cite: 1].
+## About
 
-        Overlaying images (Overlay), adjusting opacity (Opacity), and inspecting scale using the built-in magnifier (10x Original)[cite: 2].
+PCB Image Comparator was created to help with a practical hardware-development task: transferring the geometry of an original printed circuit board (PCB) into a new design.
 
-    Powerful Importers & Exporters:
+The tool helps users compare board images, align and overlay them, inspect details, and work with board contours and component placement. It may be useful for electronics hobbyists, repair projects, and engineers documenting or recreating existing boards.
 
-        Support for popular PCB and drawing formats: Gerber, DXF, SVG, KiCad, EasyEDA, Eagle, Excellon, CSV[cite: 3].
+> **Project status:** The capabilities below reflect the features described by the project. Results depend on input quality and workflow; always verify measurements and exported data before manufacturing a PCB.
 
-        Export reports to PDF, images, and data tables[cite: 3].
+## Features
 
-    Geometry & Calibration Tools:
+### Image comparison and alignment
+- Load images of two boards (Model A and Model B), including normal or mirrored views.
+- Overlay images and adjust opacity to compare features.
+- Use the built-in magnifier to inspect details.
+- Set reference points for zero position, scale, and control-point calibration.
 
-        Precise definition of control points (ZERO, SCALE, CONTROL)[cite: 1].
+### PCB geometry tools
+- Measure dimensions and inspect board contours.
+- Work with tolerances when comparing geometry.
+- Use available image-enhancement tools such as sharpening and noise reduction.
 
-        Dimension measurements, contour building, and tolerance handling (Tolerance)[cite: 1, 3].
+### Import and export
+The project README lists support for:
+- **PCB/design and drawing formats:** Gerber, DXF, SVG, KiCad, EasyEDA, Eagle, Excellon, and CSV.
+- **Export options:** PDF reports, images, and data tables.
 
-        Auto-enhancement, sharpening, and noise reduction (Auto-enhance, Super-resolution)[cite: 3].
+Format support can vary by file type and application version. Verify imported and exported data before relying on it.
 
-    User Interface (UI):
+### Interface and workflow
+- Object Manager and layer tree.
+- Undo/redo and change history.
+- Workflow controls for common calibration and alignment steps.
 
-        Object Manager panel, layer tree, and change history with undo/redo support (Undo/Redo)[cite: 1, 3].
+## Requirements
+- Python 3.13 or newer
+- Dependencies listed in `requirements.txt`
 
-        Workflow Bar for quick calibration and alignment steps[cite: 3].
+## Installation
 
-🚀 Quick Start
-Requirements
+```bash
+git clone https://github.com/jerydgreen-maker/PCB_Image_Comparator.git
+cd PCB_Image_Comparator
+pip install -r requirements.txt
+```
 
-    Python 3.13+[cite: 3]
+## Run the application
 
-    Libraries from requirements.txt[cite: 3]
+On Windows, try launching `run.bat`, or run the application from a terminal:
 
-Installation & Run
+```bash
+python main.py
+```
 
-    Clone the repository:
-    Bash
+If the application does not start, confirm that the required Python version is installed and that dependencies installed successfully.
 
-    git clone https://github.com/jerydgreen-maker/PCB_Image_Comparator.git
-    cd PCB_Image_Comparator
-    
+## Typical workflow
+1. Load the reference board image and the image you want to compare.
+2. Mirror an image if necessary so both views have the same orientation.
+3. Align the images using reference points and scale calibration.
+4. Adjust overlay opacity and inspect differences.
+5. Measure or trace the relevant geometry.
+6. Export your work if the required export option is available.
+7. Independently verify dimensions and outputs before manufacturing.
 
-    Install dependencies:
-    Bash
+## Contributing
 
-    pip install -r requirements.txt
+Contributions and practical feedback are welcome.
 
-    Run the program:
+1. Fork this repository.
+2. Create a feature branch: `git checkout -b feature/your-feature`
+3. Commit your changes: `git commit -m "Describe your change"`
+4. Push the branch: `git push origin feature/your-feature`
+5. Open a Pull Request.
 
-        On Windows, you can simply run run.bat[cite: 3]
+## Support the project
 
-        Or via terminal:
-        Bash
+If this tool is useful to you, you can support independent development on Ko-fi:
 
-        python main.py
+**https://ko-fi.com/jerydgreen**
 
-🤝 Contributing & Guidelines
+Support helps with continued development, testing, and maintenance.
 
-I welcome community development! If you want to improve the program or add new features:
+## Usage and attribution
 
-    Fork the repository.
+This project is developed by **Azure Dragon Tech**. Please retain appropriate attribution when sharing or modifying the project.
 
-    Create your feature branch (git checkout -b feature/CoolFeature).
+The repository describes the project as intended for **non-commercial use**. Before redistributing, modifying, or using the software commercially, check the repository's current licensing terms. If no explicit license file is present, permissions may be unclear; the maintainer should add a suitable license defining permitted use.
 
-    Commit your changes (git commit -m 'Add some CoolFeature').
+## Disclaimer
 
-    Push to the branch (git push origin feature/CoolFeature).
+This tool supports image-based PCB comparison and geometry work but does not guarantee manufacturing accuracy. Camera angle, lens distortion, lighting, image scaling, and alignment can affect results. Verify all critical dimensions and generated manufacturing files independently.
 
-    Open a Pull Request.
+---
 
-The program is created by Azure Dragon Tech. I kindly ask you not to use this project for commercial purposes, and upon modification, not to change the name and logo. I will be glad if this program helps you in your projects, and you will also help other developers in theirs!
+Made by **Azure Dragon Tech**.
