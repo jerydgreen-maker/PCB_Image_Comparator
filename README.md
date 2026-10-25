@@ -12,6 +12,17 @@
 
 ## About
 
+## 📸 Screenshots
+
+<p align="center">
+  <img src="pic/PCBC1.jpg" width="45%" alt="Screenshot 1">
+ 
+</p>
+
+<p align="center">
+  <img src="pic/PCBC2.jpg" width="45%" alt="Screenshot 2">
+</p>
+
 PCB Image Comparator was created to help with a practical hardware-development task: transferring the geometry of an original printed circuit board (PCB) into a new design.
 
 The tool helps users compare board images, align and overlay them, inspect details, and work with board contours and component placement. It may be useful for electronics hobbyists, repair projects, and engineers documenting or recreating existing boards.
