@@ -1,7 +1,9 @@
 🐉 Azure Dragon Tech — PCB Geometry Comparator
 
-Buy Me a Tea
-    This program was created by Azure Dragon Tech (solo developer) for precise geometry copying, board contours, and component placement.
+[![Buy Me a Tea](https://img.shields.io/badge/☕-Support%20Development-FF5E5B?style=for-the-badge)](https://ko-fi.com/jerydgreen)
+
+Support the development of RetroShell by Azure Dragon Tech.
+
 
 📌 About the Project
 
