@@ -1,5 +1,6 @@
 🐉 Azure Dragon Tech — PCB Geometry Comparator
 
+Buy Me a Tea
     This program was created by Azure Dragon Tech (solo developer) for precise geometry copying, board contours, and component placement.
 
 📌 About the Project
