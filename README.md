@@ -17,6 +17,16 @@ It helps me and other engineers to:
 
     Compare board images, overlay them on each other, and perform calibration with high precision.
 
+    ## 📸 Screenshots
+
+<p align="center">
+  <img src="pic/PCBC1.png" width="45%" alt="Screenshot 1">
+</p>
+
+<p align="center">
+  <img src="pic/PCBC2.png" width="45%" alt="Screenshot 2">
+</p>
+
 This project is open source. I will be glad if you take this project as a basis, introduce useful functions for yourself, and share them with other users!
 ✨ Key Features
 
