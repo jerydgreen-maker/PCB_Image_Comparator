@@ -107,7 +107,17 @@ Support helps with continued development, testing, and maintenance.
 
 This project is developed by **Azure Dragon Tech**. Please retain appropriate attribution when sharing or modifying the project.
 
-The repository describes the project as intended for **non-commercial use**. Before redistributing, modifying, or using the software commercially, check the repository's current licensing terms. If no explicit license file is present, permissions may be unclear; the maintainer should add a suitable license defining permitted use.
+## License
+
+PCB Image Comparator is licensed under the [MIT License](LICENSE).
+
+You are free to use, copy, modify, distribute, sublicense, and sell copies of the software, subject to the conditions of the MIT License.
+
+See the [LICENSE](LICENSE) file for the full license text.
+
+---
+
+Developed by **Azure Dragon Tech**.
 
 ## Disclaimer
 
